@@ -1,0 +1,17 @@
+= content_for :title, t('.title')
+
+- if request.xhr?
+  a.close-reveal-modal ×
+
+.privacy-page.static-page
+  .row
+    .title
+      h2 Policy - SilverAlms
+      h4 SilverAlms allow only philanthropic requests.
+    .text
+      p The platform is exclusively for charity related crowd-funding. We do not entertain any other objectives or projects. Each request should be clear, precise and conveying. We reject fund requests  that doesn't suit to the purpose of the site. Our categories are Medical Aid, Homeless, Indebted, Education, Daily Bread, Livelihood, Religious, Constructions, Jobless, Handicapped, Public Welfare and Charity Activities.
+      p Creating a request is currently open to people over the age of 18 from anywhere the world. Apart from individual person nonprofits, and other organizations can also use SilverAlms to fund their charitable activities. 
+      p SilverAlms is dedicated for causes and individual fund requests. No creative or business related projects are allowed on the site. You cannot use the platform for selling any type of materials or services even for charitable purposes. SilverAlms is not a platform for people to make revenue, rather it is a philanthropic site for helping needy people. 
+      p A user can create any number of requests but only one request on the same story and need. Homeless people can indeed create requests on SilverAlms, however this is not an option to own real estate. No reward is allowed on SilverAlms as the donators contribute with pure intention of charity. No offensive material (hate speech, etc); pornographic material; or projects endorsing or opposing a political candidate etc... allowed on SilverAlms.Every request should be created following the technical guidelines of SilverAlms. 
+      p Projects must be clear about their state of need, purpose of the fund and ways of spending it. Supporting documents can be attached to the project. (for example: medical certificates and medicine bills to a medical aid request.) No simulations or photo-realistic renderings like Technical drawings, CAD designs, sketches are allowed. SilverAlms is pledged to find the needy people and the most deserving persons. 
+      p SilverAlms’s mission is to help people to lead a happier life. Since we’ve adjusted these guidelines several times — to add more of them to fit new uses, or to simplify them as we learn. The guidelines are never perfect, but we care deeply about trying to get them right. We aim to be as open as possible while protecting the health and creative spirit of SilverAlms for the long term.

@@ -1,0 +1,11 @@
+en:
+  layouts:
+    header:
+      start_campaign: 'Send a Request'
+      discover: 'Browse'
+      about: 'About'
+      cat: '<a href="#">Categories</a>'
+      sign-out: 'Log out'
+      sign-up: 'Join'
+      sign-in: 'Log in'
+

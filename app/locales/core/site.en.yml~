@@ -1,0 +1,11 @@
+en:
+  facebook_locale: 'en_US'
+  site:
+    title: "SilverAlms.com"
+    meta_title:  "%{title} · %{company_name}"
+    description: "Together, We make them happier"
+    keywords: "silveralms.com, crowdfunding, project, community, contruction, medical aid, donation, food, poverty, orphanages, religious"
+    email:
+      contact: 'contact@support.silveralms.com'
+    ograph:
+      description: "SilverAlms is the world’s first philanthropic platform to raise fund for charitable purposes."

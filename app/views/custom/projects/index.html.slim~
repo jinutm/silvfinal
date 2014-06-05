@@ -1,0 +1,99 @@
+- content_for :title, t('.title')
+
+.home-page
+  header.hero.center[data-image-url=image_path('home-hero.jpg')]
+    .row
+      .large-12.columns.large-centered
+
+
+  section.how-it-works.white
+    .row
+      .large-6.medium-6.columns.one
+        h4 = t('.how-it-works.two.headline' )
+        p
+          = t('.how-it-works.two.text')
+          = link_to t('.how-it-works.two.button'), companies_contact_path, class: 'button'
+      .large-6.medium-6.columns.two
+        h4 = t('.how-it-works.three.headline' )
+        p
+          = t('.how-it-works.three.text')
+          = link_to t('.how-it-works.three.button'), start_path, class: 'button'
+
+  section.projects
+    .row
+      section.ending-soon
+          h3
+            = link_to discover_path(filter: 'expiring') do
+              i.icon-et-hourglass
+              = t('.ending_soon')
+
+          .row
+            - for project in @ending_soon
+              = render 'project', project: project
+
+          .text-right
+              = link_to discover_path(filter: 'expiring'), class: 'see-more' do
+                = t('words.see_more')
+                i.icon-et-right-circled
+
+      section.recommended
+        h3
+          = link_to discover_path(filter: 'recommended') do
+            i.icon-et-heart
+            = t('.recommended')
+
+        .row
+          = render 'project', project: @featured, large: true if @featured
+          = render 'project', project: @recommended if @recommended
+
+        .text-right
+          = link_to discover_path(filter: 'recommended'), class: 'see-more' do
+            = t('words.see_more')
+            i.icon-et-right-circled
+
+      section.successful
+          h3
+            = link_to discover_path(filter: 'successful') do
+              i.icon-et-thumbs-up
+              = t('.successful')
+
+          .row
+            - for project in @successful
+              = render 'project', project: project
+
+          .text-right
+            = link_to discover_path(filter: 'successful'), class: 'see-more' do
+              = t('words.see_more')
+              i.icon-et-right-circled
+
+      section.coming-soon
+          h3
+            = link_to discover_path(filter: 'soon') do
+              i.icon-et-clock
+              = t('.coming_soon')
+
+          .row
+            - for project in @coming_soon
+              = render 'project', project: project
+
+          .text-right
+              = link_to discover_path(filter: 'soon'), class: 'see-more' do
+                = t('words.see_more')
+                i.icon-et-right-circled
+
+  - if @channels.any?
+    section.channels.default-list
+      .row
+        .large-12.columns
+          h3
+            i.icon-et-megaphone
+            = t('.channels')
+
+      .row
+        = render @channels
+  section.press
+    .row
+      - @press_assets.each do |asset|
+        
+        = link_to asset.url, target: :blank, title: asset.title do
+          = image_tag asset.image.thumb.url

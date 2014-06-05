@@ -1,0 +1,34 @@
+en:
+  projects:
+    index:
+      title: 'SilverAlms.com'
+      recommended: 'Recommended'
+      near: 'Projects Near'
+      channels: 'Partners'
+      ending_soon: 'Urgent'
+      successful: 'Successful'
+      coming_soon: 'Coming Soon'
+      join:
+        join_the_neighborhood: 'Join SilverAlms'
+        already_joined: 'Already joined? %{link}.'
+        sign_in: 'Sign in'
+      hero:
+        title: 'Together, We make them happier'
+        subtitle: "It’s your platform to share, care and wipe few drops of tears! Why are you worried, when the world is so merciful! Share your troubles with us, we shere our fortune with you!"
+      how-it-works:
+        one:
+          headline: 'For Companies'
+          text: 'Neighbor.ly is the best way to earn golden impressions while doing good in customer communities.'
+          button: 'Request a Demo'
+        two:
+          headline: 'For funding – Share your story'
+          text: "Are you looking for financial aid to live a bit better? Share your story with the kind-hearted world."
+          button: 'Race Money – Find Help'
+        three:
+          headline: 'To contribute – Share your Care'
+          text: 'Do you think you are kind-enough to help a person or save a life? SilverAlms is waiting for your contributions'
+          button: 'Find projects – Find Requests'
+    start_one:
+      title: 'Do you or your community need Help!'
+      button: 'Start one in your area'
+      small_button: 'Start one'

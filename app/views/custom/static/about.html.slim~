@@ -1,0 +1,15 @@
+= content_for :title, "About Us"
+/- content_for :meta_tags do
+  link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" type="text/css"
+
+#about-page
+  .row
+    .title
+      h2 Terms &amp; Conditions
+      h4 Please carefully read the terms and conditions of use for Silveralms.com. Usage implies acceptance of these terms. Every user must accept SilverAlm's Terms of Use Agreement prior to making financial transactions on the platform.
+    .text
+      h4 SilverAlms Terms of Use Agreement
+      p These Terms of Use govern your use of SilverAlms's websites and services (the "Service"). By using the Service, you agree to be bound by these Terms, our Privacy Policy, all applicable laws and all conditions or policies referenced here (collectively, the "Terms"). SilverAlms may amend these Terms at any time by posting a revised version of the Terms on the Site. Your access or continued use of the Service after the effective date of the revised Terms constitutes your acceptance of the modified Terms.
+      h4 Legal Terms  
+      p In these Terms, we refer to those raising funds as "Campaign Owners" and to their fundraising campaigns as "Requests, Campaigns, Help Request". We refer to those contributing funds as "Contributors, Donators" and to the funds they contribute as "Contributions, Help, Aid". Campaign Owners, Contributors and other visitors to the Service are referred to collectively as "Users."
+      p SilverAlms is an online crowdfunding platform for people and entities seeking to raise funds for their own Campaigns and to contribute to the Campaigns of others. SilverAlms makes no representations about the quality, safety, morality or legality of any Campaign, the truth or accuracy of content posted on the website. Users use the Service at their own risk.

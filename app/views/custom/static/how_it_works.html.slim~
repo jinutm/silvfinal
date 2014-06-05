@@ -1,0 +1,36 @@
+= content_for :title, t('.title')
+.how-it-works-page.static-page
+  .row
+    h1.page-headline
+      | SilverAlms - Know How 
+
+  .mission
+    .row
+      h2 KNOW HOW
+    .text
+      p SilverAlms being an exclusive philanthropic platform, allows users to create fund requests for personal needs or for a common cause. But we strictly allow only the requests that fit into one of our categories. We help you to reach your requests before the global community and receive help instantly.
+      p Before you start a campaign on silverAlms or before you donate hard earned money to needy ones, we request you to learn the process of doing so.
+      h2 CREATING A REQUEST
+    .text
+      p All the campaigns created on the website, www.silveralms.com, is a request for financial assistance. The person creating a request should follow the step by step process until completion.
+      ol
+        li First of all, the person who create a request on silveralms should have a genuine need or cause to collect funds.
+        li The user should login to the website giving the necessary details and create a profile on the site. No anonymous requests are allowed on the site.
+        li When creating the profile the user is required to provide personal details like name, address, phone number, bank account details to which he/she wants the funds to be sent etc...
+        li When creating the profile is completed the user is directed to the project page on which the user can upload images or video and narrate the story and request for funds.
+      h4 Reaching Out
+    .text
+      ol
+        li Once the request is created, the global users of silveralms will see it by default. We may place the request on the homepage on random basis or on based on urgency. However, the project owner needs to take personal initiative to make the project reach on community, friends etc... by sharing it among social medias and by other offline methods.
+      h4 Receiving funds
+    .text
+      ol
+        li Once the request is created, the global users of silveralms will see it by default. We may place the request on the homepage on random basis or on based on urgency. However, the project owner needs to take personal initiative to make the project reach on community, friends etc... by sharing it among social medias and by other offline methods.
+      h2 DONATING TO A REQUEST
+    .text
+      p Any person even without joining the site or signing in, can donate funds for a needy person. It is your hard earned money, thus we advise you to browse through the projects and contribute to the most needy and helpless person. We do necessary verification steps before approving any project on silveralms.com, yet we do not guarantee the authenticity of any project featured on silveralms.com. The contribution to any request is the sole responsibility of the donator. 
+      p You can donate funds with few easy steps:
+      ol
+        li Browse through the requests created on silveralms.com and decide who deserves your valuable help and how much to be donated. 
+        li You can click on the ‘Contribute’ button and select the payment mode and amount.
+        li Finally, click on the send button to complete the contribution.
