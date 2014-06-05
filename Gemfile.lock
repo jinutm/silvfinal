@@ -26,15 +26,6 @@ GIT
       rails (~> 4.0)
 
 GIT
-  remote: git://github.com/luminopolis/catarse_echeck_net.git
-  revision: 9f0988707dcb66b169b9094ad5b603c8844453bf
-  ref: 9f0988707dcb66b169b9094ad5b603c8844453bf
-  specs:
-    catarse_echeck_net (1.0.0)
-      authorize-net (~> 1.5.2)
-      rails (~> 4.0)
-
-GIT
   remote: git://github.com/luminopolis/catarse_paypal_express.git
   revision: 30c36c2b88db0495722f45e6e1c4e6db90f8bd9d
   ref: 30c36c2b88db0495722f45e6e1c4e6db90f8bd9d
@@ -43,13 +34,6 @@ GIT
       activemerchant (>= 1.34.0)
       rails (~> 4.0)
       slim-rails
-
-GIT
-  remote: git://github.com/pludoni/simple-captcha.git
-  revision: cd38d1b5342d7ac62511d8520331ff9d84c462f7
-  branch: rails-4
-  specs:
-    pludoni-simple_captcha (0.1.6)
 
 GIT
   remote: git://github.com/ryanb/cancan.git
@@ -398,6 +382,8 @@ GEM
       json
       redis (>= 3.0.4)
       redis-namespace (>= 1.3.1)
+    simple_captcha2 (0.2.2)
+      rails (>= 3.1, < 4.1)
     simple_form (3.0.1)
       actionpack (>= 4.0.0, < 4.1)
       activemodel (>= 4.0.0, < 4.1)
@@ -485,7 +471,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  authorize-net (~> 1.5.2)
   auto_html (~> 1.6.1)
   awesome_print
   best_in_place!
@@ -496,7 +481,6 @@ DEPENDENCIES
   capybara (~> 2.1.0)
   carrierwave (~> 0.9.0)
   catarse_credit_card_net!
-  catarse_echeck_net!
   catarse_mailchimp!
   catarse_paypal_express!
   chartkick (= 1.2.0)
@@ -536,7 +520,6 @@ DEPENDENCIES
   pg
   pg_search
   pjax_rails
-  pludoni-simple_captcha!
   postgres-copy
   protected_attributes (~> 1.0.5)
   pry
@@ -553,6 +536,7 @@ DEPENDENCIES
   selenium-webdriver (~> 2.39.0)
   shoulda
   sidekiq (~> 2.17.0)
+  simple_captcha2
   simple_form (~> 3.0.1)
   sinatra (~> 1.4.3)
   slim-rails

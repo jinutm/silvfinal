@@ -1,11 +1,11 @@
 en:
   facebook_locale: 'en_US'
   site:
-    title: "Invest in civic projects you care about"
+    title: "SilverAlms.com"
     meta_title:  "%{title} · %{company_name}"
-    description: "Crowdfunding for civic projects. Invest in places and civic projects you care about."
-    keywords: "Neighbor.ly, crowdfunding, project, community, open source, civic"
+    description: "Together, We make them happier"
+    keywords: "silveralms.com, crowdfunding, project, community, contruction, medical aid, donation, food, poverty, orphanages, religious"
     email:
-      contact: 'howdy@neighbor.ly'
+      contact: 'contact@support.silveralms.com'
     ograph:
-      description: "Neighbor.ly is the best way for people, companies, and foundations to invest in the places and civic projects they care about."
+      description: "SilverAlms is the world’s first philanthropic platform to raise fund for charitable purposes."

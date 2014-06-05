@@ -1,5 +1,5 @@
 .top-bar
-  margin-bottom: 0
+  margin-bottom: 5px
 
   .top-bar-section li a:not(.button)
     line-height: 88px
@@ -7,6 +7,7 @@
     li > a
       font-weight: 400
       text-transform: uppercase
+      color: #ffffff
       &:not(.button)
         line-height: 88px
         padding: 0 20px
@@ -18,8 +19,17 @@
       &:hover
         a
           background: lighten($topbar-bg, $topbar-link-hover-lightness)
+          color: $primary-color
     li.name
       margin-right: 15px
+    ul, ul ul
+      display: none
+      position: absolute
+      z-index: 999
+      top: 100%
+      left: 0
+      width: 12em
+      background-color: $fourth-color
 
   .row
     +grid-row()
@@ -52,15 +62,15 @@
           background: none
           text-transform: uppercase
           &.user-profile, &.sign-in
-            color: white
+            color: #262c3a
             &:hover
-              color: darken(white, 10%)
+              color: $primary-color
           &.user-profile
             text-transform: none
 
         .divider
           border-top: none
-          color: white
+          color: #f2f2f2
           margin: 0 5px
           font-size: 85%
 
@@ -89,7 +99,7 @@
             padding: 0
             border: none
             background: none
-            color: white
+            color: #262c3a
             box-shadow: none
             height: auto
             font-size: 90%

@@ -45,14 +45,14 @@ en:
       user:
         bio: 'Short Bio'
         password: 'New Password'
-        newsletter: 'Receive occasional e-mail newsletters from Neighbor.ly'
-        new_project: 'Email me when new projects are added to Neighbor.ly'
+        newsletter: 'Receive occasional e-mail newsletters from SilverAlms'
+        new_project: 'Email me when new projects are added to SilverAlms'
         profile_type: 'Display me as a'
         phone_number: 'Phone number'
-        address: 'City, State'
+        address: 'City, State, Country'
         address_street: 'Street Address'
-        address_neighborhood: 'Neighborhood Name'
-        address_zip_code: 'Zip code'
+        address_neighborhood: 'Area'
+        address_zip_code: 'Zip/Postal/Pin code'
         other_url: 'Your website'
       project:
         name: 'Campaign Title'
@@ -71,7 +71,7 @@ en:
         site: 'Website'
         hash_tag: 'Hashtag'
         foundation_widget: 'Use new foundation widget?'
-        address_neighborhood: 'Neighborhood Name'
+        address_neighborhood: 'Area'
         address: 'City, State'
         address_city: 'City'
         address_state: 'State'
@@ -82,7 +82,7 @@ en:
       contribution:
         new:
           anonymous: 'I want to contribute anonymously.'
-          short_note: 'Optional: Add a short note to accompany your contribution. This will be displayed with your name on the "Neighbors" tab.'
+          short_note: 'Optional: Add a short note to accompany your contribution. This will be displayed with your name on the "Contributors" tab.'
     hints:
       project:
         edit:
@@ -90,7 +90,7 @@ en:
           about: "Tell us the story of your project. What is it, why does it matter, and why should contributors care about it? Here is the place for details."
           category: "Which category best describes your project?"
           expires_at: "How long will your campaign run? Research shows a 'Goldilocks window' between 30 and 60 days."
-          goal: "What is the total goal for the project? Keep in mind Neighbor.ly's platform fee, and the cost to fulfill perks you offer. No commas, currency sign or decimal."
+          goal: "What is the total goal for the project? Keep in mind SilverAlms's platform fee, and the cost to fulfill perks you offer. No commas, currency sign or decimal."
           first_contributions: "Having contributors already in hand is critical to the success of your project. You can list contributions already received, or contributions you can count on to come in on day 1 of your project. If you have neither, explain who you plan to target with your campaign."
           headline: "In 130 characters or less, summarize your project. Why should contributors support it?"
           name: "Be concise and objective. 8 words or less."
@@ -104,7 +104,7 @@ en:
           budget: 'Contributors feel most comfortable when you have a clear plan for how the proceeds will be spent. Briefly explain how the money will be used.'
           permalink: 'Automatically generated. You can edit this later.'
           headlinet: 'headlinet hint'
-          address_neighborhood: 'If in a specific neighborhood, please specify.'
+          address_neighborhood: 'If in a specific area, please specify.'
           address_city: 'The primary city or region where your project is located.'
           address_state: 'Please select the state where your project is located.'
           tag_list: "Adding keywords improves the chances of your project being discovered. The best keywords relate to the subject matter of your project. For example, if your project is to build an accessible playground, then 'Playground' and 'Accessibility' are great tags. Start typing the first few characters to see a list of existing keywords."

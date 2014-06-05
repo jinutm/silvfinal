@@ -3,16 +3,16 @@ en:
     faq:
       title: "Frequently asked questions"
     privacy:
-      title: "Privacy Policy"
+      title: "Our Policies"
     terms:
-      title: "Terms of use"
+      title: "Terms and Conditions"
     how_it_works:
       title: 'How it works'
     start_terms:
       title: 'Terms'
       explore_curious: "Just looking around!"
-      explore_projects: "I want to explore the projects."
+      explore_projects: "I want to explore the campaigns."
       submit: "Next step!"
-      send_project: "I want to submit my project."
+      send_project: "I want to submit my campaign."
     base:
       title: 'This is the base of a static page'

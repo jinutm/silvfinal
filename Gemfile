@@ -27,10 +27,7 @@ gem 'chartkick', '1.2.0'
 
 # Payment engines
 gem 'catarse_credit_card_net', github: 'luminopolis/catarse_credit_card_net', ref: '1297c623f0f3b52551cead50e939dd961a0401ad'
-gem 'catarse_echeck_net', github: 'luminopolis/catarse_echeck_net', ref: '9f0988707dcb66b169b9094ad5b603c8844453bf'
 gem 'catarse_paypal_express', github: 'luminopolis/catarse_paypal_express', ref: '30c36c2b88db0495722f45e6e1c4e6db90f8bd9d'
-gem "authorize-net", "~> 1.5.2"
-
 # Decorators
 gem 'draper'
 
@@ -76,7 +73,7 @@ gem 'inherited_resources', '~> 1.4.1'
 gem 'has_scope', '~> 0.6.0.rc'
 gem 'spectator-validates_email',  require: 'validates_email'
 gem 'video_info', '~> 2.0.2'
-gem 'pludoni-simple_captcha', require: 'simple_captcha', github: 'pludoni/simple-captcha', branch: 'rails-4'
+gem 'simple_captcha2', require: 'simple_captcha'
 gem 'geocoder'
 
 # Payment

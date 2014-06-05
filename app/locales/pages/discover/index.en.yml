@@ -10,7 +10,7 @@ en:
       showing_results_for: 'Showing results for: '
       filters:
         recommended: 'Recommended'
-        expiring: 'Ending Soon'
+        expiring: 'Urgent/Ending Soon'
         recent: 'Recent'
         successful: 'Successful'
         soon: 'Coming Soon'
