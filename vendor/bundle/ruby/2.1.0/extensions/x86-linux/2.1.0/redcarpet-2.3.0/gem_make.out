@@ -1,0 +1,33 @@
+/home/hub/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling houdini_href_e.c
+compiling rc_markdown.c
+compiling markdown.c
+markdown.c:67:15: warning: ‘char_underline’ declared ‘static’ but never defined [-Wunused-function]
+compiling html_smartypants.c
+html_smartypants.c: In function ‘squote_len’:
+html_smartypants.c:92:2: warning: initialization discards ‘const’ qualifier from pointer target type [enabled by default]
+html_smartypants.c:92:2: warning: initialization discards ‘const’ qualifier from pointer target type [enabled by default]
+html_smartypants.c:92:2: warning: initialization discards ‘const’ qualifier from pointer target type [enabled by default]
+html_smartypants.c:92:2: warning: initialization discards ‘const’ qualifier from pointer target type [enabled by default]
+html_smartypants.c: In function ‘smartypants_squote’:
+html_smartypants.c:137:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+html_smartypants.c: In function ‘smartypants_cb__amp’:
+html_smartypants.c:232:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling stack.c
+compiling rc_render.c
+rc_render.c: In function ‘rndr_link_attributes’:
+rc_render.c:257:28: warning: variable ‘rndr’ set but not used [-Wunused-but-set-variable]
+compiling buffer.c
+compiling html.c
+compiling autolink.c
+compiling houdini_html_e.c
+linking shared-object redcarpet.so
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 redcarpet.so ./.gem.20140606-8041-x50c1d
+installing default redcarpet libraries

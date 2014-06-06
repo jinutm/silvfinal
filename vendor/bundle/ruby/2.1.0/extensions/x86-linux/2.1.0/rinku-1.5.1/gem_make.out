@@ -1,0 +1,28 @@
+/home/hub/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling rinku.c
+rinku.c: In function ‘rinku_autolink’:
+rinku.c:257:4: warning: pointer targets in passing argument 2 of ‘print_link’ differ in signedness [-Wpointer-sign]
+rinku.c:87:13: note: expected ‘const char *’ but argument is of type ‘uint8_t *’
+rinku.c:197:9: warning: unused variable ‘link_url_cb’ [-Wunused-variable]
+rinku.c: In function ‘autolink_callback’:
+rinku.c:290:2: warning: pointer targets in passing argument 1 of ‘rb_str_new’ differ in signedness [-Wpointer-sign]
+/home/hub/.rvm/rubies/ruby-2.1.0/include/ruby-2.1.0/ruby/intern.h:704:7: note: expected ‘const char *’ but argument is of type ‘uint8_t * const’
+rinku.c: In function ‘rb_rinku_autolink’:
+rinku.c:432:3: warning: pointer targets in passing argument 2 of ‘rinku_autolink’ differ in signedness [-Wpointer-sign]
+rinku.c:184:1: note: expected ‘const uint8_t *’ but argument is of type ‘char *’
+rinku.c:437:3: warning: pointer targets in passing argument 1 of ‘rb_str_new’ differ in signedness [-Wpointer-sign]
+/home/hub/.rvm/rubies/ruby-2.1.0/include/ruby-2.1.0/ruby/intern.h:704:7: note: expected ‘const char *’ but argument is of type ‘uint8_t *’
+compiling buffer.c
+buffer.c: In function ‘bufprintf’:
+buffer.c:116:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling autolink.c
+linking shared-object rinku.so
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 rinku.so ./.gem.20140606-8041-xrs30r
+installing default rinku libraries

@@ -1,0 +1,13 @@
+*.gem
+*.rbc
+.bundle
+.config
+pkg
+rdoc
+spec/dummy/tmp/app/assets/javascripts/application.js
+spec/dummy/tmp/app/assets/javascripts/dummy/
+
+# Ignore all logfiles and tempfiles.
+spec/dummy/log/*.log
+spec/dummy/tmp
+spec/dummy/db/schema.rb
