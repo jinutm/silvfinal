@@ -18,6 +18,15 @@ development:
   password: password
   port: 5432
 
+production:
+  adapter: postgresql
+  encoding: utf-8
+  host: localhost
+  database: revenge_production
+  pool: 5
+  username: postgres
+  password: password
+  port: 5432
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -40,9 +49,9 @@ development:
 
 test:
   adapter: postgresql
-  encoding: unicode
+  encoding: utf-8
   host: localhost
-  database: neighborly_test
+  database: revenge_test
   pool: 5
   username: postgres
   password: password
