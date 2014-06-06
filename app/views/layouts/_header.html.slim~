@@ -31,11 +31,6 @@ header.fixed
             = link_to about_path do
               i.icon-et-heart
               = t('.cat')
-          ul
-            li = link_to t('.start_campaign'), start_path
-            li = link_to t('.recieving_funds').html_safe
-            li = link_to t('.reach_out').html_safe
-            li = link_to t('.legal'), privacy_path
 
         / Right Nav Section
         ul.right

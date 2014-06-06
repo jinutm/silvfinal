@@ -2,12 +2,28 @@ en:
   projects:
     index:
       title: 'SilverAlms.com'
-      recommended: 'Recommended'
+      recommended: 'SilverAlms Recommended'
       near: 'Projects Near'
-      channels: 'Partners'
-      ending_soon: 'Urgent'
-      successful: 'Successful'
+      channels: 'Our Partners'
+      ending_soon: 'Urgent Campaigns'
+      successful: 'Successful Campaigns'
       coming_soon: 'Coming Soon'
+      blog: 'Read Our Blog and Get the Latest News >>>'
+      blog1: '<a href="http://blog.silveralms.com">Blog</a>'
+      cat: 'Browse Main Categories'
+      cha: '<a href="http://silveralms.com/discover/category/charity activities">Charity Activities</a>'
+      con: '<a href="http://silveralms.com/discover/category/constructions">Constructions</a>'
+      dai: '<a href="http://silveralms.com/discover/category/daily bread">Daily Bread</a>'
+      edu: '<a href="http://silveralms.com/discover/category/education">Education</a>'
+      hand: '<a href="http://silveralms.com/discover/category/handicapped">Handicapped</a>'
+      hom: '<a href="http://silveralms.com/discover/category/homeless">Homeless</a>'
+      indbt: '<a href="http://silveralms.com/discover/category/indebted">Indebted</a>'
+      jobl: '<a href="http://silveralms.com/discover/category/jobless">Jobless</a>'
+      livly: '<a href="http://silveralms.com/discover/category/livelihood">Livelihood</a>'
+      meda: '<a href="http://silveralms.com/discover/category/medical aid">Medical Aid</a>'
+      pubw: '<a href="http://silveralms.com/discover/category/public welfare">Public Welfare</a>'
+      reli: '<a href="http://silveralms.com/discover/category/religious">Religious</a>'
+      othr: '<a href="http://silveralms.com/discover/category/others">Others</a>'
       join:
         join_the_neighborhood: 'Join SilverAlms'
         already_joined: 'Already joined? %{link}.'
@@ -23,7 +39,7 @@ en:
         two:
           headline: 'For funding – Share your story'
           text: "Are you looking for financial aid to live a bit better? Share your story with the kind-hearted world."
-          button: 'Race Money – Find Help'
+          button: 'Raise Money – Find Help'
         three:
           headline: 'To contribute – Share your Care'
           text: 'Do you think you are kind-enough to help a person or save a life? SilverAlms is waiting for your contributions'

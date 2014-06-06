@@ -4,6 +4,7 @@
   header.hero.center[data-image-url=image_path('home-hero.jpg')]
     .row
       .large-12.columns.large-centered
+        <iframe width="900" height="500" src="http://www.cincopa.com/media-platform/iframe.aspx?fid=AsBALuL4On3W" frameborder="0" allowfullscreen scrolling="no"></iframe>
 
 
   section.how-it-works.white
@@ -97,3 +98,29 @@
         
         = link_to asset.url, target: :blank, title: asset.title do
           = image_tag asset.image.thumb.url
+  section.news
+    .row
+      .large-4.columns.one
+          h3
+            = t('.cat')
+          ul
+           li = link_to t('.cha').html_safe
+           li = link_to t('.con').html_safe
+           li = link_to t('.dai').html_safe
+           li = link_to t('.edu').html_safe
+           li = link_to t('.hand').html_safe
+           li = link_to t('.hom').html_safe
+           li = link_to t('.indbt').html_safe
+           li = link_to t('.jobl').html_safe
+           li = link_to t('.livly').html_safe
+           li = link_to t('.meda').html_safe
+           li = link_to t('.pubw').html_safe
+           li = link_to t('.reli').html_safe
+           li = link_to t('.othr').html_safe
+
+      .large-4.columns.two
+         = render 'layouts/newsletter'
+         
+      .large-4.columns.three
+          <iframe width="400" height="400" style="border:none;" src="http://output84.rssinclude.com/output?type=iframe&amp;id=886573&amp;hash=91c7b0a448570a0f8a7802664fea2ad4"></iframe>
+

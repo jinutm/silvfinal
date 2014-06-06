@@ -1,7 +1,7 @@
 .home-page
   header.hero
     padding: +emCalc(45px) 0
-    min-height: +emCalc(450px)
+    min-height: +emCalc(400px)
     h2
       strong
         color: #262c3a
@@ -64,6 +64,25 @@
       &:last-child
         float: right
         margin-right: 0
+
+  section.news
+    background: #ff606e
+    padding: +emCalc(25px) 0
+    h3
+      text-transform: none
+      color: #262c3a
+      font-size: 14px
+      font-weight: bold
+      margin-bottom: +emCalc(10px)
+      i
+        padding-right: +emCalc(5px)
+      a
+        color: #262c3a
+    ul
+      list-style: square
+      li a
+        text-transform: none
+        color: #ffffff
 
   section.near
     header

@@ -4,7 +4,7 @@ en:
       start_campaign: 'Send a Request'
       discover: 'Browse'
       about: 'About'
-      cat: '<a href="#">Categories</a>'
+      cat: 'Categories'
       sign-out: 'Log out'
       sign-up: 'Join'
       sign-in: 'Log in'
