@@ -75,8 +75,8 @@ end
 
 
 OauthProvider.find_or_create_by!(name: 'facebook') do |o|
-  o.key = '686963018037797'
-  o.secret = 'aafec836b6d5493ce8ab61af0d63d5a1'
+  o.key = '245932138941468'
+  o.secret = '192c6ff9d43347513637eb06d1b40b4c'
   o.path = 'facebook'
 end
 
@@ -93,8 +93,8 @@ OauthProvider.find_or_create_by!(name: 'google_oauth2') do |o|
 end
 
 OauthProvider.find_or_create_by!(name: 'linkedin') do |o|
-  o.key = 'your_linkedin_app_key'
-  o.secret = 'your_linkedin_app_secret'
+  o.key = '972220b6-0fb2-4e78-83da-9d240b84cb3c'
+  o.secret = 'a73c3def-9367-4db4-96f5-0c89160f6d7b'
   o.path = 'linkedin'
 end
 
